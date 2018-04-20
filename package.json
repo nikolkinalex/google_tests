@@ -1,0 +1,26 @@
+{
+  "name": "google_tests",
+  "version": "1.0.0",
+  "description": "tests",
+  "main": "test.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "wdio"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "wdio-mocha-framework": "^0.5.13",
+    "wdio-selenium-standalone-service": "0.0.10",
+    "wdio-spec-reporter": "^0.1.4",
+    "webdriverio": "^4.12.0"
+  },
+  "dependencies": {
+    "chai": "^4.1.2",
+    "faker": "^4.1.0",
+    "npm": "^5.8.0",
+    "sync-request": "^6.0.0"
+  }
+}
